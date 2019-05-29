@@ -1,4 +1,4 @@
-package com.xiaoze.consumer;
+package com.xiaoze.provider;
 
 import com.alibaba.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.springframework.boot.SpringApplication;
@@ -8,14 +8,14 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import java.io.IOException;
 
 /**
- * DubboConsumerApplication
- * 消费者启动类
+ * DubboProviderApplication
+ * 服务提供启动类
  * @author xiaoze
  * @date 2018/6/7
  */
 @EnableDubbo
 @SpringBootApplication
-public class DubboConsumerApplication {
+public class Main {
 
     public static void main(String[] args) {
         try {
@@ -28,6 +28,6 @@ public class DubboConsumerApplication {
             e.printStackTrace();
         }
 
-//        SpringApplication.run(DubboConsumerApplication.class, args);
+//        SpringApplication.run(DubboProviderApplication.class, args);
     }
 }

@@ -1,5 +1,7 @@
 HELP.md
 /target/
+*/target/
+*.class
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
@@ -25,4 +27,4 @@ HELP.md
 /.nb-gradle/
 /build/
 .DS_Store
-#ignore文件我也提交了
+ignore文件我也提交了

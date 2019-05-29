@@ -1,15 +1,10 @@
 package com.xiaoze.provider.service.impl;
 
-import com.alibaba.dubbo.config.annotation.Service;
 import com.xiaoze.api.service.DemoService;
+import org.springframework.stereotype.Service;
 
-/**
- * DemoServiceImpl
- * 服务提供类
- * @author xiaoze
- * @date 2018/6/7
- */
-@Service(version = "${demo.service.version}")
+
+@Service("demoService")
 public class DemoServiceImpl implements DemoService {
 
     @Override
